@@ -17,4 +17,4 @@ module load gdal/3.5.0
 module load proj/6.3.0
 module load geos/3.10.3
 
-Rscript slurm_phase_2.R $shp_filename $lihtc_filename
+Rscript slurm_job_array.R $shp_filename $lihtc_filename
