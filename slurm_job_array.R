@@ -40,4 +40,3 @@ cnty_func <- function(buff_test, lihtc_proj_test) {
 lihtc_out <- cnty_func(buffer, lihtc)
 
 st_write(lihtc_out, paste0("completed/", shp_filename, ".shp"), append = F) # write shapefile of these overlapping blocks
-
